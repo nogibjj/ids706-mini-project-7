@@ -16,7 +16,7 @@ Follow these steps to set up and run the project:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/aghakishiyeva/ids706-mini-project-7.git
+   git clone https://github.com/nogibjj/ids706-mini-project-7.git
    ```
 
 2. Navigate to the project directory:
