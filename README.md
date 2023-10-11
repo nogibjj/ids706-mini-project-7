@@ -25,13 +25,8 @@ Follow these steps to set up and run the project:
    cd ids706-mini-project-7
    ```
    
-3. Install the required Python packages by running:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Configure environment variables by creating a .env file in the project directory with the following content:
+3. Configure environment variables by creating a .env file in the project directory with the following content:
 
    ```bash
    DB_HOST='your_host'
@@ -40,7 +35,7 @@ Follow these steps to set up and run the project:
    DB_PASSWORD='your_password'
    ```
 
-5. Once installed, you can use the tool by running:
+4. Once installed, you can use the tool by running:
 
    ```bash
    my_tool
