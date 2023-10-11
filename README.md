@@ -1,13 +1,13 @@
 # Package a Python Script into a Command-Line Tool
 
-This is a Python project that demonstrates how to create a script for executing a complex SQL query on a MySQL database. The project includes a script that connects to a MySQL database and runs a complex SQL query, which involves joins, aggregation, and sorting operations. The query retrieves specific information from the database and provides detailed insights based on the data. Additionally, the project includes tests to verify the functionality of the query.
-
+This is a Python command-line tool that connects to a MySQL database, creates tables, and inserts sample data.
 
 ## Prerequisites
 
 Before running this project, make sure you have the following:
 
 * A MySQL database instance accessible from your Python environment.
+* Python installed on your machine.
 
 ## Getting Started
 
@@ -16,13 +16,13 @@ Follow these steps to set up and run the project:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/aghakishiyeva/ids706-mini-project-6.git
+   git clone https://github.com/aghakishiyeva/ids706-mini-project-7.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ids706-mini-project-6
+   cd ids706-mini-project-7
    ```
    
 3. Install the required Python packages by running:
@@ -40,14 +40,8 @@ Follow these steps to set up and run the project:
    DB_PASSWORD='your_password'
    ```
 
-5. Create a MySQL database table by running:
+5. Once installed, you can use the tool by running:
 
    ```bash
-   python main.py
-   ```
-
-6. Run the tests to ensure everything is working as expected:
-
-   ```bash
-   python test.py
+   my_tool
    ```
