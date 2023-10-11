@@ -37,7 +37,3 @@ def insert_sample_data():
         cursor.execute("INSERT INTO users (name, age) VALUES ('Alice', 28), ('Bob', 32)")
         cursor.execute("INSERT INTO orders (user_id, total_amount, order_date) VALUES (1, 100.50, '2023-01-15'), (2, 75.20, '2023-01-16')")
         conn.commit()
-
-if __name__ == "__main__":
-    create_tables()
-    insert_sample_data()
