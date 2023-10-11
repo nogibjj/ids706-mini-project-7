@@ -5,7 +5,7 @@ setup(
     version="0.1",
     description="A command-line tool to interact with a MySQL database",
     author="Gunel Aghakishiyeva",
-    url="https://github.com/aghakishiyeva/ids706-mini-project-7",
+    url="https://github.com/nogibjj/ids706-mini-project-7",
     packages=find_packages(),
     entry_points={
         'console_scripts': [
