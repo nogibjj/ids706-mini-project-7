@@ -9,7 +9,6 @@ PASSWORD = os.environ.get('DB_PASSWORD')
 def get_connection():
     return mysql.connector.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
 
-# CREATE TABLES
 def create_tables():
     with get_connection() as conn:
         cursor = conn.cursor()
@@ -30,7 +29,6 @@ def create_tables():
         """)
         conn.commit()
 
-# INSERT SAMPLE DATA
 def insert_sample_data():
     with get_connection() as conn:
         cursor = conn.cursor()
