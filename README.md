@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/nogibjj/ids706-mini-project-7/actions/workflows/main.yml/badge.svg)
 
-This is a Python command-line tool that connects to a MySQL database, creates tables, and inserts sample data.
+This is a Python command-line tool that connects to a MySQL database, creates tables, and inserts sample data. 
 
 ## Prerequisites
 
