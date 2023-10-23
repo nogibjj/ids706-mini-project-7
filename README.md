@@ -9,7 +9,7 @@ This is a Python command-line tool that connects to a MySQL database, creates ta
 Before running this project, make sure you have the following:
 
 * A MySQL database instance accessible from your Python environment.
-* Python (versions 3.7, 3.8, 3.9, or 3.10) installed on your machine.
+* Python (versions 3.7, 3.8, 3.9) installed on your machine.
 
 ## Getting Started
 
